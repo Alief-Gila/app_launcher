@@ -1,9 +1,27 @@
 app_launcher3
-Version 0.1
-30 November 2023
+Version 0.2
+1 December 2023
+
+>>>Important Notice<<<
+app_launcher3 cannot run without app_library file. If somehow it got deleted, create a new file name it "app_library.py", open it and copy this script bellow.
+copy these 2 lines \/
+apps = {
+	}
+copy these 2 lines /\
+
+How to add app:
+1. Click Add App
+2. Input all the requirements(Title, Location, Icon)
+3. If you don't have image file or you do not wish to have Icon, 
+    you can leave it as default or just type random word, app_launcher3 will use the default image.
+4. Or you can use this freeware to get icon from app you want to add, it is called IconViewer. 
+    Click properties on your app, click the tab called Icons, select the resolution then click save icon.
+    https://www.botproductions.com/iconview/iconview.html
+5. Click Input to add your app to app_launcher3.
 
 Basic Features
 - Launch .exe, .py/pyw, .txt, Steam app, websites
+- Support multiple types of image file (Recommended types : PNG, JPEG, JPG, ico)
 - Add, Edit, Delete Apps
 - Designed for 1360x768(Done) & 1920x1080(On progress)
 
@@ -16,11 +34,10 @@ Module Used
 - webbrowser
 - ctypes
 - Pillow
+- PyLauncher
 
-Notice
-app_launcher3 cannot run without app_library file. If somehow it got deleted, create a new file name it "app_library.py", open it and copy this script bellow.
-apps = {
-	}
-
-Alief Karunia Dzamar
+if you have a questions, found bugs, or have suggestions, please contact me at:
 aliefeila12@gmail.com
+12221061@bsi.ac.id
+or
+https://osu.ppy.sh/users/11660656 (lmao)
